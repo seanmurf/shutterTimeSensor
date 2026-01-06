@@ -46,3 +46,17 @@ The code alone can read out result values well faster than 1/10,000s but at high
 I've seen shutter timers using a 555 timer, not sure if that would bring better accuracy for high speed shutters.  If going high-speed, I would want to investigate more seriously into the code loop vs interrupt method, photodiode reaction time, and better lensing/focusing for the IR before worrying about "micros()" and a 555 timer...
 
 At least I think this is better than some python timing code and a bare photodiode!
+
+
+
+
+
+**Places I should have checked more thoroughly, ah well:**
+[GitHub - stuart-brown/ArduinoShutterSpeedTester: Platform IO Arduino project for a film camera shutter speed tester](https://github.com/stuart-brown/ArduinoShutterSpeedTester)
+
+[GitHub - sebastienroy/shutter_speed_tester: A project which goal is to design and build a tool that allows to test the shutter speed accuracy of a film camera](https://github.com/sebastienroy/shutter_speed_tester)
+
+[GitHub - bjpirt/shutter-tester: An easy-to-build three point camera shutter speed tester](https://github.com/bjpirt/shutter-tester)
+
+and of course there are others
+But! at least for me, I got to brush up on VSCode, Platformio, and I had all the components except the cheap photodiodes, so thats good...
