@@ -2,7 +2,7 @@
 
 sshutter speed sensor gadget using TrinketM0 and IR emitter and photodiode
 
-![assembly_iso.jpg](C:\projects\shutterTimeSensor\photos\assembly_iso.jpg)
+![assembly_iso.jpg](photos\assembly_iso.jpg)
 
 ****Code: ****
 
@@ -14,23 +14,23 @@ See "*ShutterTimeSensor*" folder for VSCode and PlatformIO project
 
 **Schematic**
 
-![ShutterTimer_schematic.jpg](C:\projects\shutterTimeSensor\schematics\ShutterTimer_schematic.jpg)
+![ShutterTimer_schematic.jpg](schematics\ShutterTimer_schematic.jpg)
 
 **Breadboard (with test button for IR light, not used in final build)**
 
-<img title="" src="photos/breadboard_setup.jpg" alt="breadboard setup" width="672" data-align="inline"> 
+![breadboard setup](photos\breadboard_setup.jpg)
 
 **Soldered on protoboard**
 
-![top_populated.jpg](C:\projects\shutterTimeSensor\photos\top_populated.jpg)
+![top_populated.jpg](photos\top_populated.jpg)
 
-![top.jpg](C:\projects\shutterTimeSensor\photos\top.jpg)
+![top.jpg](photos\top.jpg)
 
-![bottom.jpg](C:\projects\shutterTimeSensor\photos\bottom.jpg)
+![bottom.jpg](photos\bottom.jpg)
 
 **Encased and running**
 
-![working.jpg](C:\projects\shutterTimeSensor\photos\working.jpg)
+![working.jpg](photos\working.jpg)
 
 **Results:**
 
@@ -39,13 +39,10 @@ My excellent condition Trip35 1/40s flash setting setting measures between 1/37 
 
 I've seen recently shutter timers using a 555 timer, not sure if that would bring better accuracy for high speed shutters.
 
-
-
 **Shutter speed accuracy and high speeds/short duration:**  
 I did make some small effort to 'blinder' the photodiode path to measure a 'small' area of the film surface.  And I'm using compiled c++ (arduino) code and "micros() command.  
 The code alone can read out result values well faster than 1/10,000s but at high speeds I don't know how much % error may be due to photodiode reaction time, ADC time, code loop time, and the diode mounting and 'blinder'ing.    
 
 I've seen shutter timers using a 555 timer, not sure if that would bring better accuracy for high speed shutters.  If going high-speed, I would want to investigate more seriously into the code loop vs interrupt method, photodiode reaction time, and better lensing/focusing for the IR before worrying about "micros()" and a 555 timer...
-
 
 At least I think this is better than some python timing code and a bare photodiode!
