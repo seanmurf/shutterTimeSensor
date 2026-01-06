@@ -2,7 +2,7 @@
 
 sshutter speed sensor gadget using TrinketM0 and IR emitter and photodiode
 
-![assembly_iso.jpg](photos\assembly_iso.jpg)
+![assembly_iso.jpg](photos/assembly_iso.jpg)
 
 ****Code: ****
 
@@ -14,23 +14,23 @@ See "*ShutterTimeSensor*" folder for VSCode and PlatformIO project
 
 **Schematic**
 
-![ShutterTimer_schematic.jpg](schematics\ShutterTimer_schematic.jpg)
+![ShutterTimer_schematic.jpg](schematics/ShutterTimer_schematic.jpg)
 
 **Breadboard (with test button for IR light, not used in final build)**
 
-![breadboard setup](photos\breadboard_setup.jpg)
+![breadboard setup](photos/breadboard_setup.jpg)
 
 **Soldered on protoboard**
 
-![top_populated.jpg](photos\top_populated.jpg)
+![top_populated.jpg](photos/top_populated.jpg)
 
-![top.jpg](photos\top.jpg)
+![top.jpg](photos/top.jpg)
 
-![bottom.jpg](photos\bottom.jpg)
+![bottom.jpg](photos/bottom.jpg)
 
 **Encased and running**
 
-![working.jpg](photos\working.jpg)
+![working.jpg](photos/working.jpg)
 
 **Results:**
 
