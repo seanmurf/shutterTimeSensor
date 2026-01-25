@@ -1,6 +1,6 @@
 # shutterTimeSensor
 
-sshutter speed sensor gadget using TrinketM0 and IR emitter and photodiode
+Shutter speed sensor gadget using TrinketM0 and IR emitter and photodiode
 
 ![assembly_iso.jpg](photos/assembly_iso.jpg)
 
@@ -11,6 +11,10 @@ See "*ShutterTimeSensor*" folder for VSCode and PlatformIO project
 *src\main.cpp* is the program
 
 *platformio.ini* 'PlatformIO Project Configuration File' shows the framework and dependancies
+
+**Schematic**
+
+3D print files are included in the "3D files" folder
 
 **Schematic**
 
@@ -34,10 +38,9 @@ See "*ShutterTimeSensor*" folder for VSCode and PlatformIO project
 
 **Results:**
 
-Of course could be improved with a pcb, and expanded with multiple sensors to measure speed across a film plane, but, this seems to work!  
+Of course could be improved (with a pcb, and expanded with multiple sensors to measure speed across a film plane, though most importantly more work for higher shutter speed accuracy), but, this seems to work!  
 My excellent condition Trip35 1/40s flash setting setting measures between 1/37 and 1/40 of a second, so I think we're in the ballpark.  
 
-I've seen recently shutter timers using a 555 timer, not sure if that would bring better accuracy for high speed shutters.
 
 **Shutter speed accuracy and high speeds/short duration:**  
 I did make some small effort to 'blinder' the photodiode path to measure a 'small' area of the film surface.  And I'm using compiled c++ (arduino) code and "micros() command.  
@@ -55,6 +58,7 @@ At least I think this is better than some python timing code and a bare photodio
 [GitHub - stuart-brown/ArduinoShutterSpeedTester: Platform IO Arduino project for a film camera shutter speed tester](https://github.com/stuart-brown/ArduinoShutterSpeedTester)
 
 [GitHub - sebastienroy/shutter_speed_tester: A project which goal is to design and build a tool that allows to test the shutter speed accuracy of a film camera](https://github.com/sebastienroy/shutter_speed_tester)
+(this project looks amazing, great validation and work... I only found it when writing this README and I expect I could have learned a lot from it and done a better job on this.  Maybe in the future...
 
 [GitHub - bjpirt/shutter-tester: An easy-to-build three point camera shutter speed tester](https://github.com/bjpirt/shutter-tester)
 
