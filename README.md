@@ -12,7 +12,7 @@ See "*ShutterTimeSensor*" folder for VSCode and PlatformIO project
 
 *platformio.ini* 'PlatformIO Project Configuration File' shows the framework and dependancies
 
-**Schematic**
+**Geometry and 3D print stuff**
 
 3D print files are included in the "3D files" folder
 
